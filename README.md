@@ -1,10 +1,6 @@
 ## 一个用js写的倒计时组件
 
-#### 使用方法
-
-##### 安装
-
-##### es6 module
+#### es6 module
 
 ```
 npm i nw-countdown --save
@@ -19,7 +15,7 @@ import CountDown from 'nw-countdown'
 new CountDown({endTime: '2018/05/20 17:22:00', container: '.container', isMs: true})
 ``` 
 
-##### script
+#### script
 
 引入dist下的countdown.js
 
@@ -42,4 +38,15 @@ new CountDown({endTime: '2018/05/20 17:22:00', container: '.container', isMs: tr
 - isMs(Boole): 是否展示分秒，默认为false
 
 - callback(function): 倒计时结束之后的回调函数 
+
+#### 扩展
+
+为了使组件更通用，提供了一些class给使用者扩展
+
+- .con:整个倒计时的最外层容器
+- .box:单个容器元素
+- .box_num:数字
+- .box_unit单位
+
+如果对样式有特殊需求，重写以上class即可
 
