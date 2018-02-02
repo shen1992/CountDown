@@ -1,0 +1,24 @@
+{
+  "name": "nw-countdown",
+  "version": "1.0.2",
+  "description": "javascript countdown module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "entry point": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shen1992/CountDown.git"
+  },
+  "author": "shenyuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shen1992/CountDown/issues"
+  },
+  "homepage": "https://github.com/shen1992/CountDown#readme",
+  "keywords": [
+    "javascript",
+    "countdown"
+  ]
+}

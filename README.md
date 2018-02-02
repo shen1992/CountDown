@@ -2,6 +2,15 @@
 
 #### 使用方法
 
+##### 安装
+
+##### es6 module
+
+```
+npm i nw-countdown --save
+```
+
+
 - 把组件引入，传入参数
 
 ```
@@ -9,6 +18,15 @@ import CountDown from 'nw-countdown'
 
 new CountDown({endTime: '2018/05/20 17:22:00', container: '.container', isMs: true})
 ``` 
+
+##### script
+
+引入dist下的countdown.js
+
+```
+ new CountDonw({...})
+
+```
 
 #### API
 
