@@ -24,6 +24,10 @@ new CountDown({endTime: '2018/05/20 17:22:00', container: '.container', isMs: tr
 
 ```
 
+## 注意
+
+根据产品的需求，当天数为0的时候会隐藏
+
 #### API
 
 ##### 传入参数
@@ -36,6 +40,8 @@ new CountDown({endTime: '2018/05/20 17:22:00', container: '.container', isMs: tr
   + 如果不传，则默认append到body
   
 - isMs(Boole): 是否展示分秒，默认为false
+
+- dayEndShow(Boole): 当天数为0的时候展示分秒，默认为true
 
 - callback(function): 倒计时结束之后的回调函数 
 
