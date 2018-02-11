@@ -10,9 +10,11 @@ npm i nw-countdown --save
 - 把组件引入，传入参数
 
 ```
+
 import CountDown from 'nw-countdown'
 
 new CountDown({endTime: '2018/05/20 17:22:00', container: '.container', isMs: true})
+
 ``` 
 
 #### script
@@ -28,14 +30,23 @@ new CountDown({endTime: '2018/05/20 17:22:00', container: '.container', isMs: tr
 
 根据产品的需求，当天数为0的时候会隐藏
 
+## 目前支持两种格式
+
+- 按天格式(1天5小时30分30秒)
+- 按小时格式(48:30:30)
+
 #### API
 
 ##### 传入参数
+
 - endTime(string or num):倒计时的结束时间
   + 支持字符串："2018/05/20 17:22:00"
   + 也支持num型毫秒格式：1589966520000
   
 ##### 可选参数
+
+- colon(Boolen): 是否使用小时格式，默认为false
+
 - container(selector):选择把组件append到哪个元素中，支持选择器，如".container","#containenr","body"
   + 如果不传，则默认append到body
   
