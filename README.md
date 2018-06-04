@@ -54,7 +54,7 @@ new CountDown({endTime: '2018/05/20 17:22:00', container: '.container', isMs: tr
 
 - dayEndShow(Boole): 当天数为0的时候展示分秒，默认为true
 
-- callback(function): 倒计时结束之后的回调函数 
+- callBack(function): 倒计时结束之后的回调函数 
 
 - symbol(string): 分秒前的符号，默认为':'
 
