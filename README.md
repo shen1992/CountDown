@@ -17,15 +17,6 @@ new CountDown({endTime: '2018/05/20 17:22:00', container: '.container', isMs: tr
 
 ``` 
 
-#### script
-
-引入dist下的countdown.js
-
-```
- new CountDonw({...})
-
-```
-
 ## 注意
 
 根据产品的需求，当天数为0的时候会隐藏

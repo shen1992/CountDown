@@ -1,6 +1,6 @@
 {
   "name": "nw-countdown",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "javascript countdown module",
   "main": "index.js",
   "scripts": {
