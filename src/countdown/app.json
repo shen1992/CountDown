@@ -1,0 +1,8 @@
+{
+  "title": "倒计时组件",
+  "keyswords": "",
+  "description": "",
+  "icon": "/favicon.ico",
+  "template": "src/countdown/index.html",
+  "compiled": true
+}

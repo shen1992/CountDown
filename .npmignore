@@ -2,6 +2,7 @@
 .cache/
 .vscode/
 node_modules/
-/lib
 /dist
+/src
+/fle.json
 *.log*

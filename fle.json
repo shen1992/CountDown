@@ -1,0 +1,25 @@
+{
+  "version": "4.8.0",
+  "business": "count",
+  "eslint": false,
+  "publicPath": "/",
+  "splitVendor": true,
+  "splitCommon": true,
+  "vendors": {},
+  "sourceMap": false,
+  "remUnit": 50,
+  "port": 5000,
+  "historyApiFallback": true,
+  "proxy": {},
+  "browsers": [
+    "last 4 versions",
+    "ie >= 9",
+    "iOS >= 7",
+    "Android >= 4"
+  ],
+  "externals": {},
+  "compileType": "babel",
+  "react": false,
+  "vue": false,
+  "boilerplate": "lib"
+}
